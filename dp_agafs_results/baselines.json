@@ -1,0 +1,8 @@
+{
+  "cifar_svm": 0.843,
+  "cifar_knn": 0.774,
+  "med_svm": 0.832,
+  "med_knn": 0.79,
+  "stl_svm": 0.955,
+  "stl_knn": 0.926
+}

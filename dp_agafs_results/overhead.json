@@ -1,0 +1,14 @@
+{
+  "corr_gpu_ms": 6.5059661865234375,
+  "corr_cpu_ms": 58.669328689575195,
+  "corr_speedup": 9.0177733802404,
+  "entropy_ms": 0.08916831016540527,
+  "adaptive_ms": 0.0010013580322265625,
+  "corr_penalty_ms_chrom": 0.5072445869445801,
+  "corr_penalty_ms_gen": 15.217337608337402,
+  "gpu_gen_ms": 254.58312034606934,
+  "cpu_gen_ms": 3394.883632659912,
+  "fitness_speedup": 13.335069615161656,
+  "novel_ms_gen": 15.307507276535034,
+  "novel_pct_gpu_gen": 6.012773846014091
+}

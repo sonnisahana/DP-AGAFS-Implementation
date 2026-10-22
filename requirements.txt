@@ -1,0 +1,14 @@
+# Based on the imports used in the notebook.
+# Tip: after a successful run, pin exact versions with:  pip freeze > requirements-lock.txt
+# For GPU support, install the PyTorch build matching your CUDA version from https://pytorch.org
+torch
+torchvision
+medmnist
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+jupyter
+ipykernel

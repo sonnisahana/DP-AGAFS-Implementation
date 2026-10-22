@@ -1,0 +1,45 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ---------- Downloaded datasets (re-downloaded automatically on first run) ----------
+data/
+datasets/
+cifar-10-batches-py/
+cifar-10-python.tar.gz
+stl10_binary/
+stl10_binary.tar.gz
+*.npz
+medmnist/
+
+# ---------- Model weights / large caches (do not commit) ----------
+*.pth
+*.pt
+*.h5
+*.ckpt
+features_cache/
+
+# NOTE: dp_agafs_results/ and dp_agafs_figures/ are intentionally NOT ignored
+# (small JSON, best_chrom_*.npy and PNG files that document the results).
+
+# ---------- Paper / conference files (IEEE holds copyright after eCF) ----------
+*.pptx
+paper/
+ICSIT_*.pdf
+IEEEtran_HOWTO.pdf
+
+# ---------- OS / editor ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,12 @@
+{
+  "seed_base": 1042,
+  "n_runs": 30,
+  "ga_nf_mean": 439.5,
+  "ga_nf_std": 31.634106067133725,
+  "ga_acc_mean": 0.8379666666666665,
+  "pso_nf_mean": 615.2333333333333,
+  "pso_acc_mean": 0.8419,
+  "wilcoxon_nf_p": 1.862645149230957e-09,
+  "binomial_p": 9.313225746154785e-10,
+  "n_ga_fewer": 30
+}

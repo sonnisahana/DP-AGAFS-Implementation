@@ -1,0 +1,83 @@
+{
+  "CIFAR-10": {
+    "SVM (RBF)": {
+      "acc_all": 0.843,
+      "acc_sel": 0.851,
+      "diff": 0.008000000000000007
+    },
+    "KNN (k=5)": {
+      "acc_all": 0.774,
+      "acc_sel": 0.797,
+      "diff": 0.02300000000000002
+    },
+    "Random Forest": {
+      "acc_all": 0.796,
+      "acc_sel": 0.778,
+      "diff": -0.018000000000000016
+    },
+    "Logistic Regression": {
+      "acc_all": 0.823,
+      "acc_sel": 0.797,
+      "diff": -0.025999999999999912
+    },
+    "MLP (1 hidden)": {
+      "acc_all": 0.847,
+      "acc_sel": 0.827,
+      "diff": -0.020000000000000018
+    }
+  },
+  "PathMNIST": {
+    "SVM (RBF)": {
+      "acc_all": 0.832,
+      "acc_sel": 0.845,
+      "diff": 0.013000000000000012
+    },
+    "KNN (k=5)": {
+      "acc_all": 0.79,
+      "acc_sel": 0.819,
+      "diff": 0.028999999999999915
+    },
+    "Random Forest": {
+      "acc_all": 0.833,
+      "acc_sel": 0.829,
+      "diff": -0.0040000000000000036
+    },
+    "Logistic Regression": {
+      "acc_all": 0.821,
+      "acc_sel": 0.818,
+      "diff": -0.0030000000000000027
+    },
+    "MLP (1 hidden)": {
+      "acc_all": 0.857,
+      "acc_sel": 0.846,
+      "diff": -0.01100000000000001
+    }
+  },
+  "STL-10": {
+    "SVM (RBF)": {
+      "acc_all": 0.955,
+      "acc_sel": 0.957,
+      "diff": 0.0020000000000000018
+    },
+    "KNN (k=5)": {
+      "acc_all": 0.926,
+      "acc_sel": 0.936,
+      "diff": 0.010000000000000009
+    },
+    "Random Forest": {
+      "acc_all": 0.931,
+      "acc_sel": 0.913,
+      "diff": -0.018000000000000016
+    },
+    "Logistic Regression": {
+      "acc_all": 0.944,
+      "acc_sel": 0.938,
+      "diff": -0.006000000000000005
+    },
+    "MLP (1 hidden)": {
+      "acc_all": 0.947,
+      "acc_sel": 0.943,
+      "diff": -0.0040000000000000036
+    }
+  }
+}
